@@ -1,0 +1,21 @@
+model.class	model.family	dataset	features	dependent.variable	num.sample.train	num.sample.test	adj.r.squared	RMSE
+XGBoost_reg:linear	immunescore	BLCA	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	285	123	0.7840	0.0662
+XGBoost_reg:linear	immunescore	BRCA	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	549	236	0.8289	0.0585
+XGBoost_reg:linear	immunescore	CESC	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	214	92	0.7532	0.0535
+XGBoost_reg:linear	immunescore	COADREAD	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	259	111	0.6900	0.0392
+XGBoost_reg:linear	immunescore	ESCA	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	129	56	0.5563	0.0591
+XGBoost_reg:linear	immunescore	GBMLGG	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	415	179	0.7221	0.0503
+XGBoost_reg:linear	immunescore	HNSC	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	365	157	0.7082	0.0636
+XGBoost_reg:linear	immunescore	KIRC	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	223	96	0.7411	0.0514
+XGBoost_reg:linear	immunescore	KIRP	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	192	83	0.8175	0.0531
+XGBoost_reg:linear	immunescore	LGG	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	371	159	0.6874	0.0504
+XGBoost_reg:linear	immunescore	LIHC	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	260	112	0.7296	0.0489
+XGBoost_reg:linear	immunescore	LUAD	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	319	137	0.7525	0.0635
+XGBoost_reg:linear	immunescore	LUSC	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	259	111	0.7756	0.0697
+XGBoost_reg:linear	immunescore	PAAD	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	125	54	0.7531	0.0559
+XGBoost_reg:linear	immunescore	PCPG	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	128	56	0.5032	0.0380
+XGBoost_reg:linear	immunescore	PRAD	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	348	150	0.6303	0.0484
+XGBoost_reg:linear	immunescore	SKCM	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	329	142	0.8514	0.0702
+XGBoost_reg:linear	immunescore	STAD	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	260	112	0.6680	0.0730
+XGBoost_reg:linear	immunescore	THCA	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	356	153	0.8891	0.0424
+XGBoost_reg:linear	immunescore	UCEC	450k DNA methylation array	ESTIMATE.immunescore (RNA-seqV2)	181	78	0.8115	0.0504

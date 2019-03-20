@@ -1,0 +1,21 @@
+model.class	model.family	dataset	features	dependent.variable	num.sample.train	num.sample.test	adj.r.squared	RMSE
+XGBoost_reg:linear	purity	BLCA	450k DNA methylation array	InfiniumPurify	289	124	0.9038	0.0450
+XGBoost_reg:linear	purity	BRCA	450k DNA methylation array	InfiniumPurify	515	222	0.9534	0.0250
+XGBoost_reg:linear	purity	CESC	450k DNA methylation array	InfiniumPurify	216	93	0.7421	0.0557
+XGBoost_reg:linear	purity	COADREAD	450k DNA methylation array	InfiniumPurify	277	120	0.9240	0.0235
+XGBoost_reg:linear	purity	ESCA	450k DNA methylation array	InfiniumPurify	130	56	0.8845	0.0303
+XGBoost_reg:linear	purity	GBM	450k DNA methylation array	InfiniumPurify	107	46	0.9512	0.0260
+XGBoost_reg:linear	purity	HNSC	450k DNA methylation array	InfiniumPurify	371	159	0.9333	0.0251
+XGBoost_reg:linear	purity	KIRC	450k DNA methylation array	InfiniumPurify	224	96	0.8034	0.0498
+XGBoost_reg:linear	purity	KIRP	450k DNA methylation array	InfiniumPurify	193	83	0.7093	0.0658
+XGBoost_reg:linear	purity	LGG	450k DNA methylation array	InfiniumPurify	371	159	0.9194	0.0223
+XGBoost_reg:linear	purity	LIHC	450k DNA methylation array	InfiniumPurify	264	114	0.8919	0.0435
+XGBoost_reg:linear	purity	LUAD	450k DNA methylation array	InfiniumPurify	315	136	0.8347	0.0375
+XGBoost_reg:linear	purity	LUSC	450k DNA methylation array	InfiniumPurify	251	108	0.8908	0.0388
+XGBoost_reg:linear	purity	PAAD	450k DNA methylation array	InfiniumPurify	129	56	0.9481	0.0362
+XGBoost_reg:linear	purity	PCPG	450k DNA methylation array	InfiniumPurify	128	56	0.7557	0.0528
+XGBoost_reg:linear	purity	PRAD	450k DNA methylation array	InfiniumPurify	297	128	0.9533	0.0308
+XGBoost_reg:linear	purity	SKCM	450k DNA methylation array	InfiniumPurify	331	142	0.9503	0.0345
+XGBoost_reg:linear	purity	STAD	450k DNA methylation array	InfiniumPurify	276	119	0.6420	0.0675
+XGBoost_reg:linear	purity	THCA	450k DNA methylation array	InfiniumPurify	360	155	0.9476	0.0219
+XGBoost_reg:linear	purity	UCEC	450k DNA methylation array	InfiniumPurify	302	130	0.9223	0.0303
