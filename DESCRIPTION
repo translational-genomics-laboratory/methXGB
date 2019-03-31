@@ -1,0 +1,9 @@
+Package: methXGB
+Version: 1.0
+Title: Interpretation of DNA methylation data from tumour samples using XGBoost models
+Description: The methXGB package contains a collection of trained models and wrapper functions that facilitate their use
+VignetteBuilder: knitr
+License: Artistic-2.0
+URL: https://github.com/albertojleon/pkgTest
+BugReports: https://github.com/albertojleon/pkgTest/issues
+LazyData: yes
