@@ -1,0 +1,6 @@
+import(xgboost)
+import(minfi)
+import(reshape2)
+import(GEOquery)
+
+export(downloadIdat,getModelInfo,inferMethXGB,parseIdat,transformMethData)
