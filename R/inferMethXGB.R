@@ -6,7 +6,7 @@ inferMethXGB<-function(mval=NULL,model.family=NULL,dataset=NULL){
   xgb<-get(file.xgb)
   mval.sub<-mval[rownames(mval) %in% xgb$feature_names,]
   mval.sub<-fillMissingFeatures(df.mval=mval.sub,model.features=xgb$feature_names)
-  mval.sub<-mval.sub[order(row.names(mval.sub)),]
+  #mval.sub <- mval.sub[order(row.names(mval.sub)), ] #sometimes makes rows dissapear! removed, redundant with 'match' below??
   mval.sub<-mval.sub[match(rownames(mval.sub),xgb$feature_names),]
   percent.missing.values<-apply(mval.sub,2,function(x) sum(!is.finite(x))*100/xgb$nfeatures)
   mval.sub<-apply(mval.sub,2,function(x) {x[!is.finite(x)]<-NA;return (x)}) #formats different types of missing values (-Inf and other)
